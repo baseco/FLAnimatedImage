@@ -19,7 +19,11 @@ let package = Package(
             cSettings: [
                 .headerSearchPath("include"),
                 .define("SWIFTPM", to: "1")
+            ],
+            linkerSettings: [
+                .linkedFramework("UIKit")
             ]
+
         )
     ]
 )
