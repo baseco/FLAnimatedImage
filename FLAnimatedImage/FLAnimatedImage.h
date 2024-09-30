@@ -1,0 +1,1 @@
+include/FLAnimatedImage/FLAnimatedImage.h
