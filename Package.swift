@@ -15,7 +15,7 @@ let package = Package(
             path: "FLAnimatedImage",
             exclude: [ "Info.plist" ],
             sources: [ "FLAnimatedImageView.m", "FLAnimatedImage.m" ],
-            publicHeadersPath: "include",
+            publicHeadersPath: "../include",
             cSettings: [
                 .headerSearchPath("include"),
                 .define("SWIFTPM", to: "1")
